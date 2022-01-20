@@ -1,0 +1,15 @@
+server:
+  port: 7000
+zuul:
+  routes:
+      serv-authentification: # Service to create as sample
+        path: /sauthenticationRates/** #path that will be intercepted
+        serviceId: service-authentificationRates
+      serv-register: # Service to create as sample
+        path: /sregisterRates/** #path that will be intercepted
+        serviceId: service-registerRates
+      
+eureka:                  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
