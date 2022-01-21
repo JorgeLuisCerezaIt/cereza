@@ -12,7 +12,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/Rate
     username: postgres
     password: 12345
-    ssl: false
+    ssl: true
     continueOnError: true 
     initialization-mode: always
   messages:
