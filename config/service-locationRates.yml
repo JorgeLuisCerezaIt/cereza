@@ -9,9 +9,9 @@ spring:
   datasource:
     #1.JDBC
     driver-class-name: org.postgresql.Driver 
-    url: jdbc:postgresql://localhost:5432/Rate
+    url: jdbc:postgresql://localhost:5432/rates
     username: postgres
-    password: 12345
+    password: Admin123.
     continueOnError: true 
     initialization-mode: always
   messages:
