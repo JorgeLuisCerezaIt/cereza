@@ -4,16 +4,14 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: create-drop
   data:
     jpa.repositories.enabled: true
   datasource:
     #1.JDBC
     driver-class-name: org.postgresql.Driver 
-    url: jdbc:postgresql://localhost:5432/rates
+    url: jdbc:postgresql://localhost:5432/Rate
     username: postgres
     password: 12345
-    ssl: false
     continueOnError: true 
     initialization-mode: always
   messages:
