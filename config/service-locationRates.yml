@@ -11,7 +11,7 @@ spring:
     driver-class-name: org.postgresql.Driver 
     url: jdbc:postgresql://localhost:5432/rates
     username: postgres
-    password: Admin123.
+    password: 12345
     continueOnError: true 
     initialization-mode: always
   messages:
