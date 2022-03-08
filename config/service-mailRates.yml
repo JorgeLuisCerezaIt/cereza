@@ -1,10 +1,10 @@
 #Propiedades Microservicios
 spring:
   mail:
-    host: imap.secureserver.net
-    port: 993
-    username: jcarrillo@lmi-int.com
-    password: Sistemas2013811
+    host: smtp.gmail.com
+    port: 587
+    username: andresjbdj@gmail.com
+    password: Jeff1003955430271995
     properties:
       mail:
         protocol: smtp
@@ -15,7 +15,7 @@ spring:
           timeout: 5000
           writetimeout: 5000
           ssl:
-            trust: imap.secureserver.net
+            trust: smtp.gmail.com 
           starttls:
             enable: true
   jpa:
