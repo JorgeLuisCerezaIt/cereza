@@ -9,7 +9,7 @@ spring:
           - Path=/sauthenticationRates/**
         filters:
           - RewritePath=/sauthenticationRates/*, /
-          
+  
       - id: serv-registerRates
           #lb:// cuando se va a acceder a través de Eureka
         uri: lb://service-registerRates #http://localhost:8080
@@ -17,7 +17,7 @@ spring:
           - Path=/sregisterRates/**
         filters:
           - RewritePath=/sregisterRates/*, /
-          
+  
       - id: serv-reservationsRates
           #lb:// cuando se va a acceder a través de Eureka
         uri: lb://service-reservationsRates #http://localhost:8080
@@ -33,7 +33,7 @@ spring:
           - Path=/svehicleRates/**
         filters:
           - RewritePath=/svehicleRates/*, /
-          
+  
       - id: serv-fineRates
          #lb:// cuando se va a acceder a través de Eureka
         uri: lb://service-fineRates #http://localhost:8080
@@ -41,8 +41,7 @@ spring:
           - Path=/sfineRates/**
         filters:
           - RewritePath=/sfineRates/*, /
-
-          
+  
       - id: serv-mailRates
           #lb:// cuando se va a acceder a través de Eureka
         uri: lb://service-mailRates #http://localhost:8080
@@ -50,7 +49,7 @@ spring:
           - Path=/smailRates/**
         filters:
           - RewritePath=/smailRates/*, /
-                
+  
       - id: serv-locationRates
           #lb:// cuando se va a acceder a través de Eureka
         uri: lb://service-locationRates #http://localhost:8080
