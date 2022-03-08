@@ -1,10 +1,10 @@
 #Propiedades Microservicios
 spring:
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: notificaciones.cereza.it@gmail.com
-    password: notificaciones.cereza.it2020
+    host: imap.secureserver.net
+    port: 993
+    username: jcarrillo@lmi-int.com
+    password: Sistemas2013811
     properties:
       mail:
         protocol: smtp
@@ -15,7 +15,7 @@ spring:
           timeout: 5000
           writetimeout: 5000
           ssl:
-            trust: smtp.gmail.com 
+            trust: imap.secureserver.net
           starttls:
             enable: true
   jpa:
